@@ -1,0 +1,32 @@
+{
+  "name": "tdd-javascript",
+  "version": "1.0.0",
+  "description": "Javascript TDD.",
+  "main": "tests/leapYear.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "should": "^13.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha tests/*.js",
+    "coverage": "istanbul cover _mocha tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edionay/tdd-javascript.git"
+  },
+  "keywords": [
+    "TDD",
+    "javascript",
+    "mocha"
+  ],
+  "author": "Edionay Aguiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edionay/tdd-javascript/issues"
+  },
+  "homepage": "https://github.com/Edionay/tdd-javascript#readme"
+}
